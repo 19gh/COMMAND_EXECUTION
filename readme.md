@@ -21,6 +21,10 @@ pocsuite -r pocs/xxx.py -u http://www.xxx.com/ --attack
 4. shell模式
 pocsuite -r pocs/xxx.py -u http://www.xxx.com --shell
 
+5. 线程数
+使用多线程，默认线程数为1
+pocsuite -r pocs/xxx.py -f xxx.txt --verify --threads 10
+
 ... ...
 
 pocsuite -h k
