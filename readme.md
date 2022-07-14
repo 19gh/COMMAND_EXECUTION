@@ -27,7 +27,7 @@ pocsuite -r pocs/xxx.py -f xxx.txt --verify --threads 10
 
 ... ...
 
-pocsuite -h k
+pocsuite -h 可查看使用详情
 ```
 
 ### 免责声明
